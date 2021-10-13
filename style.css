@@ -485,6 +485,9 @@ div .text{
     .third .orange{
         height: 30vh;
     }
+    .menuImg img{
+        top: 148px;
+    }
 
 }
 
@@ -508,4 +511,52 @@ div .text{
         right: 0px;
         bottom: 20%;
     }
+    .four .Ftext{
+        font-size: 2.5rem;
+    }
+}
+@media screen and (max-width: 605px){
+    .menuImg img{
+        top: 148px;
+    }
+    .diffFood .yellow p{
+        height: 25vh;
+        overflow: scroll;
+    }
+    .diffFood .white p{
+        height: 25vh;
+        overflow: scroll;
+    }
+    .four .Ftext{
+        left: 40%;
+        font-size: 2.5rem;
+    }
+    .sixth .sixTex2{
+        height: 14vh;
+        overflow: scroll;
+    }
+    .sixth .sixTex1{
+        top: 44%;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .bg1 .text{
+        left: 25%;
+        font-size: 3rem;
+       
+    }
+    .menuTxt{
+        font-size: 5rem;
+        right: 15px;
+    }
+    .para{
+        height: 50vh;
+        overflow: scroll;
+    }
+   
+}
+
+@media screen and (max-width: 417px){
+
 }
